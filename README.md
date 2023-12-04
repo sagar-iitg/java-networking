@@ -35,3 +35,10 @@ The Server has to know about ALL the Clients.
 | SMTP     |25 |
 | Time     | 37 |
 
+#####
+Without port numbers, the server would have no way of knowing which application a client wanted to connect to
+
+#####
+0 tto 1023 are reserved for the well-known services like the ones we just talked about.
+
+#####
