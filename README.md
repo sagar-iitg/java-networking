@@ -15,3 +15,23 @@ The Server has to know about ALL the Clients.
  Establishing a connection is a one-time operation (that either works or fails).
 
  #####
+ To make a connection, you need to know two things about the server: where it is and which port it’s running on.
+ IP address and TCP port number.
+
+#####
+ Your internet web (HTTP) server runs on port 80
+
+ #####
+ Think of port numbers as unique identifiers. They represent a logical connection to a particular piece of software running on the server. That’s it.
+
+ #####
+ | protocol | port number|
+|------------------|------------------|
+|HTTP    | 80   |
+| HTTPS   | 443   |
+| POP3    | 110    |
+| FTP   | 20    |
+|Telnet    | 23  |
+| SMTP     |25 |
+| Time     | 37 |
+
