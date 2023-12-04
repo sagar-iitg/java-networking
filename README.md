@@ -42,3 +42,14 @@ Without port numbers, the server would have no way of knowing which application 
 0 tto 1023 are reserved for the well-known services like the ones we just talked about.
 
 #####
+The java.net.Socket class is available in all versions of Java.
+
+#####
+Channels are in the java.nio.channels package
+
+#####
+Channels support advanced networking features
+Channels can support nonblocking I/O, reading and writing via ByteBuffers, and asynchronous I/O.
+
+#####
+
