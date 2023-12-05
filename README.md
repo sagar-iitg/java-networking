@@ -52,4 +52,9 @@ Channels support advanced networking features
 Channels can support nonblocking I/O, reading and writing via ByteBuffers, and asynchronous I/O.
 
 #####
+What two pieces of information does the client need in order to make a connection with a server?
+port and ip address
+
+#####
+
 
