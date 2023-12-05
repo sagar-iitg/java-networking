@@ -56,5 +56,20 @@ What two pieces of information does the client need in order to make a connectio
 port and ip address
 
 #####
+Client and server applications communicate using Channels.
+
+#####
+A Channel represents a connection between two applications that may (or may not) be running on two different physical machines.
+
+####
+A client must know the IP address (or host name) and TCP port number of the server application.
+
+#####
+A TCP port is a 16-bit unsigned number assigned to a specific server application. TCP port numbers allow different server applications to run on the same machine; clients connect to a specific application using its port number.
+
+#####
+The port numbers from 0 through 1023 are reserved for “well-known services” including HTTP, FTP, SMTP, etc.
+
+#####
 
 
