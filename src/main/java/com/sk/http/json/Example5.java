@@ -1,4 +1,4 @@
-package com.sagar.http.json;
+package com.sk.http.json;
 
 import java.io.BufferedReader;
 import java.io.IOException;
